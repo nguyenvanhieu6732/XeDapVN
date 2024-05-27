@@ -1,0 +1,26 @@
+.product-item {
+  width: auto;
+  height: auto;
+  padding-top: 102px;
+  display: flex;
+}
+
+.sticky-detail {
+  position: sticky;
+  height: 100%;
+  width: 900px;
+  top: 102px;
+}
+.list-img-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.list-img-item img {
+  width: 65px;
+  height: 50px;
+  margin-right: 16px;
+}
+.list-img-item img:hover{
+  border-bottom: 1px solid #000;
+}
